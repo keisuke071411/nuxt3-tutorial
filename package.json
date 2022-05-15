@@ -11,11 +11,17 @@
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.0.4",
+    "@nuxtjs/eslint-module": "^3.0.2",
     "@babel/eslint-parser": "^7.16.0",
     "@nuxtjs/eslint-config-typescript": "^7.0.2",
     "nuxt": "3.0.0-rc.3",
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.13.0",
     "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
     "sass": "^1.43.4",
