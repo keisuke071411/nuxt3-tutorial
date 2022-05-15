@@ -13,12 +13,12 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"],
       "@/*": ["./src/*"]
     },
-    "types": ["@nuxt/types"],
-    "resolveJsonModule": true
+    "types": ["@nuxt/types"]
   }
 }
