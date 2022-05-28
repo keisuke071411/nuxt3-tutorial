@@ -1,6 +1,8 @@
 <template>
   <Header />
-  <slot />
+  <main>
+    <slot />
+  </main>
   <Footer />
 </template>
 
@@ -25,5 +27,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
 }
 </style>

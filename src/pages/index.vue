@@ -1,12 +1,9 @@
 <template>
-  <main>
-    <h1>hello world</h1>
-  </main>
+  <h1>hello world</h1>
+  <p>{{ counter }}</p>
+  <NuxtLink to="/test">ページ遷移</NuxtLink>
 </template>
 
-<style lang="scss" scoped>
-main {
-  width: 100%;
-  height: 100vh;
-}
-</style>
+<script setup lang="ts">
+const { counter } = useCounter();
+</script>
